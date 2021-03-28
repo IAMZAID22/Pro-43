@@ -19,36 +19,37 @@ function draw(){
     textSize(50);
     textFont("Algerian")
     
-    stroke("cyan");
-    fill("blue");
+    stroke("white");
+    fill("black");
     text(hr+" :",220,550);
 
-    stroke("purple");
-    fill("orange");
+    stroke("white");
+    fill("black");
     text(mn+" :",320,550);
 
-    stroke("pink");
-    fill("red");
+    stroke("white");
+    fill("black");
     text(sc,420,550);
 
     textFont("arial");
     textSize(18);
     noStroke();
-    fill("white");
+    fill("blue");
     text("12", 345,120);
 
     noStroke();
-    fill("white");
+    fill("red");
     text("3", 480,255);
 
     noStroke();
-    fill("white");
+    fill("red");
     text("9", 190,255);
 
     noStroke();
-    fill("white");
+    fill("blue");
     text("6", 350,400);
 
+    
     //Translation and rotation 
     translate(350,250)
     rotate(-90)
